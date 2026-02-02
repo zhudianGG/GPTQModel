@@ -13,8 +13,8 @@ from gptqmodel import GPTQModel, QuantizeConfig, get_best_device
 os.environ["CUDA_DEVICE_ORDER"] = "PCI_BUS_ID"
 os.environ["PYTORCH_ALLOC_CONF"] = "expandable_segments:True"
 
-pretrained_model_id = "/monster/data/model/TinyLlama-1.1B-Chat-v1.0" # "TinyLlama/TinyLlama-1.1B-Chat-v1.0"
-quantized_model_id = "TinyLlama-1.1B-Chat-v1.0-4bit-128g"
+pretrained_model_id = "EAGLE3-LLaMA3.1-Instruct-8B" # "TinyLlama/TinyLlama-1.1B-Chat-v1.0"
+quantized_model_id = "EAGLE3-LLaMA3.1-Instruct-8B_GPTQ"
 
 
 def main():

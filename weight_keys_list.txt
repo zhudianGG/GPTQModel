@@ -1,0 +1,21 @@
+================================================================================
+权重文件: EAGLE3-LLaMA3.1-Instruct-8B\models\pytorch_model.bin
+键数量: 15
+总参数: 424,849,920
+================================================================================
+
+  1. d2t                                                          (32000,)             torch.int64 32,000
+  2. t2d                                                          (128256,)            torch.bool 128,256
+  3. midlayer.self_attn.q_proj.weight                             (4096, 8192)         torch.float16 33,554,432
+  4. midlayer.self_attn.k_proj.weight                             (1024, 8192)         torch.float16 8,388,608
+  5. midlayer.self_attn.v_proj.weight                             (1024, 8192)         torch.float16 8,388,608
+  6. midlayer.self_attn.o_proj.weight                             (4096, 4096)         torch.float16 16,777,216
+  7. midlayer.mlp.gate_proj.weight                                (14336, 4096)        torch.float16 58,720,256
+  8. midlayer.mlp.up_proj.weight                                  (14336, 4096)        torch.float16 58,720,256
+  9. midlayer.mlp.down_proj.weight                                (4096, 14336)        torch.float16 58,720,256
+ 10. midlayer.hidden_norm.weight                                  (4096,)              torch.float16 4,096
+ 11. midlayer.input_layernorm.weight                              (4096,)              torch.float16 4,096
+ 12. midlayer.post_attention_layernorm.weight                     (4096,)              torch.float16 4,096
+ 13. norm.weight                                                  (4096,)              torch.float16 4,096
+ 14. fc.weight                                                    (4096, 12288)        torch.float16 50,331,648
+ 15. lm_head.weight                                               (32000, 4096)        torch.float16 131,072,000

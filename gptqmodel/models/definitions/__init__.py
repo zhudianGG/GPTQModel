@@ -73,3 +73,4 @@ from .mistral3 import Mistral3GPTQ
 from .afmoe import AfMoeQModel
 from .glm4v import Glm4vGPTQ
 from .voxtral import VoxtralGPTQ
+from .eagle3 import Eagle3QModel
